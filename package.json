@@ -1,0 +1,39 @@
+{
+  "name": "blockchain",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/p9-web/blockchain/issues"
+  },
+  "homepage": "https://github.com/p9-web/blockchain#readme",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/app",
+    "start": "node ./src/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p9-web/blockchain.git"
+  },
+  "keywords": [],
+  "author": "P9WEB",
+  "license": "ISC",
+  "types": "./types",
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/elliptic": "^6.4.14",
+    "@types/uuid": "^9.0.0",
+    "@types/ws": "^5.1.2",
+    "body-parser": "^1.20.1",
+    "crypto-js": "^4.1.1",
+    "elliptic": "^6.4.14",
+    "express": "^4.17.15",
+    "uuid": "^9.0.0",
+    "ws": "^8.12.0"
+  }
+}
