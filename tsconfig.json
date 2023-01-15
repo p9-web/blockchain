@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "target": "esnext",
+        "module": "commonjs",
+        "lib": [
+            "esnext", "dom"
+        ],
+        "sourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"]
+        },
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
