@@ -68,8 +68,10 @@ app.post(config.ENDPOINT_POST_MINE, (request, response) => {
     response.redirect(config.ENDPOINT_GET_BLOCKS);
 });
 
-app.listen(HTTP_PORT, () => {
-    console.log(`Listening on port ${HTTP_PORT}`);
-})
+export default () => {
+    app.listen(HTTP_PORT, () => {
+        console.log(`Listening on port ${HTTP_PORT}`);
+    })
 
-p2pServer.listen();
+    p2pServer.listen();
+}
