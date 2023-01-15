@@ -7,10 +7,10 @@
     "url": "https://github.com/p9-web/blockchain/issues"
   },
   "homepage": "https://github.com/p9-web/blockchain#readme",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "dev": "nodemon ./src/app",
-    "start": "node ./src/app"
+    "dev": "nodemon ./index",
+    "start": "node ./index"
   },
   "repository": {
     "type": "git",
